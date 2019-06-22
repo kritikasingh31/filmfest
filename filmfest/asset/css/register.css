@@ -5,10 +5,7 @@ body{
 
 }
 .logo{
-	 margin-top: -160px;
-	 margin-left: 20px;
-	 height: 550px;
-	 width: 550px;
+	 margin-left: 300px;
 }
 @font-face{
 	font-family: myFirstFont;
@@ -78,67 +75,27 @@ body{
 		margin-left: -40px;
 	}
 }
-.abc{
-	margin-top:-400px ;
-	width:180px ;
-	height:90px ;
-	margin-left: 70px;
+.menu{
+	list-style: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
-.abc:hover{
-	width:187px;
-	height:99px ;
+.menu li{
+	padding: 8px;
 }
-.movie:hover{
-	width:187px;
-	height:99px ;
+.menu a{
+	text-decoration: none;
 }
-.home:hover{
-	width:187px;
-	height:99px ;
+.menu li img{
+	width: 180px;
+	height: 90px;
 }
-.action:hover{
-	width:187px;
-	height:99px ;
-}
-.mov:hover{
-	width:187px;
-	height:99px ;
-}
-.movie{
-	margin-top:-400px ;
-	width:180px ;
-	height:90px ;
-	margin-left: -20px;
-}
-
-.home{
-	margin-top:-400px ;
-	width:180px ;
-	height:90px ;
-	margin-left: -20px;
-}
-
-.action{
-	margin-top:-400px ;
-	width:180px ;
-	height:90px ;
-	margin-left: -20px;
-}
-
-.mov{
-	margin-top:-400px ;
-	width:180px ;
-	height:90px ;
-	margin-left: -20px;
+.menu li img:hover{
+	width: 188px;
+	height: 99px;
+	transition: 0.3s;
 }
 .register{
-	margin-left: 120px ;
-	margin-top: -60px ;
-
-}
-.nav .hidden-sm:hover{
-      background-color: transparent;
-}
-ul .nav .navbar-nav li .hidden-sm{
-	background-color: transparent !important;
+	margin-left: 140px;
 }
